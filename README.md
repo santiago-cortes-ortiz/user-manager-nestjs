@@ -37,6 +37,11 @@ $ npm install
 ```bash
 # development
 $ npm run start
+## database postgres
+$ npm install --save @nestjs/typeorm typeorm pg
+
+#Comandos Para Nest
+$ nest g module <name>
 
 # watch mode
 $ npm run start:dev
